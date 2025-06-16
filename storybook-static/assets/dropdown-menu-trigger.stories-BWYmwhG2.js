@@ -1,0 +1,15 @@
+import{j as o}from"./jsx-runtime-BjG_zV1W.js";import{B as m}from"./button-DVhd8Mv9.js";import{b as i,a as s,c as p,d as t}from"./dropdown-menu-BhBlRuAB.js";import"./index-tw20AQU7.js";import"./index-CP2yOfOm.js";import"./index-C6iJU1zt.js";import"./cn-BEHD0UYf.js";import"./index-DvcKK4zF.js";import"./index-Dc_FVRD7.js";import"./index-Dl3xCZ72.js";import"./index-CROEQnJ0.js";import"./index-COdVRFd9.js";import"./index-B4JWVDRZ.js";import"./index-BOAxdYzW.js";import"./index-D_-GhB2M.js";import"./index-BEIweEOh.js";import"./index-BBCYznAR.js";import"./index-BN84V4xG.js";import"./index-D-X1RFvQ.js";import"./index-ygWTXzR6.js";import"./index-BZRV-XMv.js";import"./index-DKwnRhPn.js";import"./index-DLWGFm7J.js";import"./index-Cinrvcm8.js";import"./index-DmDYQtFb.js";import"./index-DiAPCjb2.js";import"./index-CjF7u6Cb.js";import"./index-lA-nzH4g.js";import"./chevron-right-DLQnG4vI.js";import"./createLucideIcon-CAcKuqHj.js";import"./circle-YboQvhN-.js";import"./check-C8XpHW4d.js";const q={title:"UI/DropdownMenu/DropdownMenuTrigger",component:i,parameters:{layout:"centered",docs:{description:{component:"The button that triggers the dropdown menu. Must be used within a DropdownMenu component."}}},argTypes:{asChild:{control:"boolean",description:"Change the component to the HTML tag or custom component supplied to the asChild prop",table:{type:{summary:"boolean"},defaultValue:{summary:"false"}}}},tags:["autodocs"]},e=n=>o.jsxs(s,{children:[o.jsx(i,{...n,children:"Open Menu"}),o.jsxs(p,{children:[o.jsx(t,{children:"Item 1"}),o.jsx(t,{children:"Item 2"})]})]});e.parameters={docs:{description:{story:"A basic trigger using the default button element."}}};const r=n=>o.jsxs(s,{children:[o.jsx(i,{...n,asChild:!0,children:o.jsx(m,{variant:"outline",children:"Custom Button Trigger"})}),o.jsxs(p,{children:[o.jsx(t,{children:"Item 1"}),o.jsx(t,{children:"Item 2"})]})]});r.parameters={docs:{description:{story:"Using asChild to render the trigger as a custom Button component while maintaining accessibility."}}};e.__docgenInfo={description:"",methods:[],displayName:"Default"};r.__docgenInfo={description:"",methods:[],displayName:"AsChild"};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`args => <DropdownMenu>
+    <DropdownMenuTrigger {...args}>Open Menu</DropdownMenuTrigger>
+    <DropdownMenuContent>
+      <DropdownMenuItem>Item 1</DropdownMenuItem>
+      <DropdownMenuItem>Item 2</DropdownMenuItem>
+    </DropdownMenuContent>
+  </DropdownMenu>`,...e.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`args => <DropdownMenu>
+    <DropdownMenuTrigger {...args} asChild>
+      <Button variant="outline">Custom Button Trigger</Button>
+    </DropdownMenuTrigger>
+    <DropdownMenuContent>
+      <DropdownMenuItem>Item 1</DropdownMenuItem>
+      <DropdownMenuItem>Item 2</DropdownMenuItem>
+    </DropdownMenuContent>
+  </DropdownMenu>`,...r.parameters?.docs?.source}}};const z=["Default","AsChild"];export{r as AsChild,e as Default,z as __namedExportsOrder,q as default};
