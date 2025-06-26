@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-BjG_zV1W.js";import{a as n,f as i,b as d,c as a,d as r,T as b,e as l,g as c}from"./table-CLL7rw6B.js";import"./cn-BEHD0UYf.js";const C={title:"UI/Table",component:n,tags:["autodocs"],parameters:{layout:"centered",docs:{description:{component:`A responsive table component for displaying data in rows and columns.
+import{j as e}from"./jsx-runtime-BjG_zV1W.js";import{a as n,f as i,b as d,c as a,d as r,T as b,e as l,g as c}from"./table-BbzDY2EN.js";import"./cn-BEHD0UYf.js";const C={title:"UI/Table",component:n,tags:["autodocs"],parameters:{layout:"centered",docs:{description:{component:`A responsive table component for displaying data in rows and columns.
 
 ### Component Parts
 - [TableHeader](?path=/story/ui-table-tableheader--default): The header section of the table.
