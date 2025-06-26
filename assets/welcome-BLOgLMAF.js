@@ -1,5 +1,5 @@
 import{j as n}from"./jsx-runtime-BjG_zV1W.js";import{useMDXComponents as c}from"./index-BgGbxSoX.js";import"./index-BgCQ941z.js";function o(i){const e={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",h4:"h4",li:"li",p:"p",pre:"pre",ul:"ul",...c(),...i.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{id:"welcome-to-gezitui",children:"Welcome to @gezit/ui"}),`
-`,n.jsx(e.p,{children:"Current version: v0.2.4"}),`
+`,n.jsx(e.p,{children:"Current version: v0.2.5"}),`
 `,n.jsx(e.h2,{id:"introduction",children:"Introduction"}),`
 `,n.jsxs(e.p,{children:[n.jsx(e.code,{children:"@gezit/ui"})," is a comprehensive React component library built with accessibility and modern web practices in mind. The library provides a collection of reusable, customizable components that follow consistent patterns and best practices."]}),`
 `,n.jsx(e.h3,{id:"key-features",children:"Key Features"}),`

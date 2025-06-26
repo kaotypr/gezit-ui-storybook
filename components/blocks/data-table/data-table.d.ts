@@ -56,8 +56,10 @@ export interface DataTableProps<TData> {
     loading?: boolean;
     /** Show current page number (default: true) */
     showPage?: boolean;
+    /** Show header as sticky on top of the table */
+    stickyHeader?: boolean;
     /** Custom message or component to show when data is empty (default: "No results.") */
     emptyMessage?: React.ReactNode;
 }
-export declare function DataTable<TData>({ columns: userColumns, data, enablePagination, pagination, onPaginationChange, enableRowSelection, onRowSelectionChange, enableColumnResizing, columnResizeMode, columnPinning, onRowClick, onRowDoubleClick, bordered, classNames, pageSizeLabel, loading, showPage, emptyMessage, }: DataTableProps<TData>): import("react/jsx-runtime").JSX.Element;
+export declare function DataTable<TData>({ columns: userColumns, data, enablePagination, pagination, onPaginationChange, enableRowSelection, onRowSelectionChange, enableColumnResizing, columnResizeMode, columnPinning, onRowClick, onRowDoubleClick, bordered, classNames, pageSizeLabel, loading, showPage, stickyHeader, emptyMessage, }: DataTableProps<TData>): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=data-table.d.ts.map
